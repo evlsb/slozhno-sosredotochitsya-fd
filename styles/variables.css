@@ -1,3 +1,32 @@
+:root {
+  --main-font-family: 'IBM Plex mono', arial;
+  --main-text-size: 18px;
+  --h1-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --h1-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  --padding-inline-block-mobile: 10px;
+  --padding-inline-block-desktop: 20px;
+
+  /*--bg-color: #000028;               Цвет фона */
+
+  /*--text-question-color: #FF0070;   /* Цвет текста вопроса */
+
+  /*--bg-item-color: #FF0070;         /* Цвет фона итема */
+  /*--text-item-color: #000028;       /* Цвет текста итема */
+
+  /*--text-color: #F1B2CE;            /* Цвет текста параграфа */
+
+  /* --text-info-color: #F1B2CE;
+  --text-accent-color-1: #000028;
+  --text-accent-color-2: #FF0070; */
+
+  /* --main-text-color: #F1B2CE; */
+  /* --main-text-accent-color-2: #FF0070; */
+
+  /* --bg-color: #000028;
+  --bg-accent-color: #FF0070; */
+}
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
