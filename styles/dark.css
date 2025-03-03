@@ -24,4 +24,27 @@
   --color-text-decor: #f1b2ce;
 
   --color-question-decor: #ff0070;
+
+  --color-link-focus-hover: #F1B2CE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000028;
+
+    --cover-image: url(../images/cover-image-dark.png);
+
+    --color-title-header: #db00ff;
+    --color-menu: #ff0070;
+    --color-menu-hover: rgba(255, 0, 112, 0.4);
+
+    --bg-title-decor: #ff0070;
+    --color-title-decor: #000028;
+
+    --color-text-decor: #f1b2ce;
+
+    --color-question-decor: #ff0070;
+
+    --color-link-focus-hover: #F1B2CE;
+  }
 }
