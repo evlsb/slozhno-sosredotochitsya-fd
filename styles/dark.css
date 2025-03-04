@@ -25,7 +25,7 @@
 
   --color-question-decor: #ff0070;
 
-  --color-link-focus-hover: #F1B2CE;
+  --color-link-focus-hover: #f1b2ce;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,6 +45,6 @@
 
     --color-question-decor: #ff0070;
 
-    --color-link-focus-hover: #F1B2CE;
+    --color-link-focus-hover: #f1b2ce;
   }
 }
