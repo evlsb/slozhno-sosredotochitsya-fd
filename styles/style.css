@@ -80,12 +80,13 @@
 .footer {
   min-block-size: 668px;
   block-size: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .corners {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 .corners::before {
